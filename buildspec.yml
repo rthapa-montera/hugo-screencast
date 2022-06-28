@@ -23,4 +23,4 @@ phases:
   post_build:
     commands:
       - aws s3 sync --delete public s3://hugo-screencast-duke-thapa
-      - echo Build completed on `date`
+      - echo Build completed `date`
